@@ -1,5 +1,8 @@
 package com.spamalot.boardgame;
 
+import com.spamalot.boardgame.ai.MinMaxSearchable;
+import com.spamalot.boardgame.ai.NegaMax;
+
 import java.util.List;
 import java.util.Scanner;
 

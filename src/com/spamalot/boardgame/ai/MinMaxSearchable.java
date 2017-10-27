@@ -1,4 +1,7 @@
-package com.spamalot.boardgame;
+package com.spamalot.boardgame.ai;
+
+import com.spamalot.boardgame.Move;
+import com.spamalot.boardgame.PieceColor;
 
 import java.util.List;
 

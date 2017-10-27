@@ -73,7 +73,7 @@ public abstract class Game {
    * @throws GameException
    *           if something goes wrong.
    */
-  protected abstract <X extends Game> X copyGame() throws GameException;
+  public abstract <X extends Game> X copyGame() throws GameException;
 
   /**
    * Get the current score of the game.

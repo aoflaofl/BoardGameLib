@@ -1,4 +1,9 @@
-package com.spamalot.boardgame;
+package com.spamalot.boardgame.ai;
+
+import com.spamalot.boardgame.Game;
+import com.spamalot.boardgame.GameException;
+import com.spamalot.boardgame.Move;
+import com.spamalot.boardgame.PieceColor;
 
 import java.util.Collections;
 import java.util.List;
@@ -89,7 +94,7 @@ public class NegaMax<T extends Game & MinMaxSearchable<S>, S extends Move> {
    *          How deep to evaluate
    * @return the best move.
    */
-  final S think(final int maxIteration) {
+  public final S think(final int maxIteration) {
     if (maxIteration < 1) {
       return null;
     }
